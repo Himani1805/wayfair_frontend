@@ -1,5 +1,5 @@
 import React from 'react'
-import ShopByDepartment from './shopByDepartment'
+
 import ExploreOurExclusiveBrands from './ExploreOurExclusiveBrands.JSX'
 import KeepShoppingForFauxFlorals from './KeepShoppingForFauxFlorals'
 import SmallSpaceEntryWayFinds from './SmallSpaceEntryWayFinds'
@@ -12,8 +12,8 @@ import HoursOnlyDealsOfTheDay from './HoursOnlyDealsOfTheDay'
 import RecommendedForYou from './RecommendedForYou'
 import DiningSaleUpto from './DiningSaleUpto'
 import AllCategories from './AllCategories'
-import Banner from '../Dashboard/Banner'
 import { Flex } from '@chakra-ui/react'
+import ShopByDepartment from './ShopByDepartment'
 
 export default function MainSection() {
   return (
@@ -30,7 +30,7 @@ export default function MainSection() {
       <SmallSpaceEntryWayFinds/>
       <KeepShoppingForFauxFlorals/>
       <ExploreOurExclusiveBrands/>
-      <shopByDepartment/>
+      <ShopByDepartment/>
     </Flex>
   )
 }
