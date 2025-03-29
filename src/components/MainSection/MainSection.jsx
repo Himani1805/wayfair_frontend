@@ -1,5 +1,5 @@
 import React from 'react'
-import ShopByDepartment from './ShopByDepartment'
+import ShopByDepartment from './shopByDepartment'
 import ExploreOurExclusiveBrands from './ExploreOurExclusiveBrands.JSX'
 import KeepShoppingForFauxFlorals from './KeepShoppingForFauxFlorals'
 import SmallSpaceEntryWayFinds from './SmallSpaceEntryWayFinds'
@@ -30,7 +30,7 @@ export default function MainSection() {
       <SmallSpaceEntryWayFinds/>
       <KeepShoppingForFauxFlorals/>
       <ExploreOurExclusiveBrands/>
-      <ShopByDepartment/>
+      <shopByDepartment/>
     </Flex>
   )
 }

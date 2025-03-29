@@ -1,7 +1,7 @@
 import { Flex, VStack, Image, Text, Box, Heading } from '@chakra-ui/react'
 import React from 'react'
 
-export default function ShopByDepartment() {
+export default function shopByDepartment() {
   return (
     <VStack my={"40px"}>
         <Heading width={'100%'} textAlign={"left"} fontWeight={"700"} marginLeft={"25px"}>Shop By Department</Heading>
