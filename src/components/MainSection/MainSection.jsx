@@ -1,6 +1,6 @@
 import React from 'react'
 
-import ExploreOurExclusiveBrands from './ExploreOurExclusiveBrands.JSX'
+import ExploreOurExclusiveBrands from './ExploreOurExclusiveBrands'
 import KeepShoppingForFauxFlorals from './KeepShoppingForFauxFlorals'
 import SmallSpaceEntryWayFinds from './SmallSpaceEntryWayFinds'
 import EntrywayEssentials from './EntrywayEssentials'
